@@ -40,6 +40,11 @@ jobs:
 
       - name: Copy resources to distribution
         run: |
+          # Debug: Show what was built
+          find build -type d -name "*Executable*" 2>/dev/null || true
+          ls -la build/dist/js/ 2>/dev/null || true
+          # Create directory if it doesn't exist and copy resources
+          mkdir -p build/dist/js/productionExecutable
           cp -r src/jsMain/resources/* build/dist/js/productionExecutable/
           
       - name: Upload artifact for Pages
@@ -61,7 +66,10 @@ jobs:
         uses: actions/deploy-pages@v4
 
   generate-cv:
+    if: github.ref == 'refs/heads/main' && github.event_name == 'push'
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     
     steps:
       - name: Checkout
@@ -81,10 +89,18 @@ jobs:
           chmod +x gradlew
           ./gradlew jvmRun --args="-o btmonier_cv.pdf"
 
-      - name: Upload CV PDF artifact
-        uses: actions/upload-artifact@v4
+      - name: Create/Update Latest CV Release
+        uses: softprops/action-gh-release@v2
         with:
-          name: cv-pdf
-          path: btmonier_cv.pdf
-          retention-days: 30
+          tag_name: cv-latest
+          name: Latest CV
+          body: |
+            ## Curriculum Vitae - Brandon Monier
+            
+            This release is automatically updated on each push to main.
+            
+            Last updated: ${{ github.event.head_commit.timestamp }}
+          files: btmonier_cv.pdf
+          draft: false
+          prerelease: false
 
