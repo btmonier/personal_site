@@ -1,0 +1,24 @@
+{
+  "name": "Brandon Monier",
+  "title": "Brandon Monier",
+  "subtitle": "Computational Biologist & Software Developer",
+  "email": "brandon.monier@gmail.com",
+  "socialLinks": [
+    {
+      "platform": "GitHub",
+      "url": "https://github.com/btmonier",
+      "icon": "fa-brands fa-github"
+    },
+    {
+      "platform": "LinkedIn",
+      "url": "https://www.linkedin.com/in/brandon-monier-2327b890",
+      "icon": "fa-brands fa-linkedin"
+    },
+    {
+      "platform": "ORCID",
+      "url": "https://orcid.org/0000-0001-6797-1221",
+      "icon": "fa-brands fa-orcid"
+    }
+  ]
+}
+

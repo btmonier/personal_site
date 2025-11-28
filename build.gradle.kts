@@ -1,0 +1,72 @@
+plugins {
+    kotlin("multiplatform") version "2.0.21"
+    kotlin("plugin.serialization") version "2.0.21"
+}
+
+group = "org.btmonier"
+version = "0.1"
+
+repositories {
+    mavenCentral()
+}
+
+kotlin {
+    jvmToolchain(21)
+    
+    jvm {
+        withJava()
+        mainRun {
+            mainClass.set("org.btmonier.cli.MainKt")
+        }
+    }
+
+    js(IR) {
+        browser {
+            commonWebpackConfig {
+                cssSupport {
+                    enabled.set(true)
+                }
+            }
+            binaries.executable()
+        }
+    }
+
+    sourceSets {
+        val commonMain by getting {
+            dependencies {
+                implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.7.3")
+            }
+        }
+        val commonTest by getting {
+            dependencies {
+                implementation(kotlin("test"))
+            }
+        }
+        val jvmMain by getting {
+            dependencies {
+                implementation("com.github.ajalt.clikt:clikt:4.4.0")
+                implementation("com.github.librepdf:openpdf:2.0.2")
+                // Apache Batik for SVG rendering
+                implementation("org.apache.xmlgraphics:batik-transcoder:1.17")
+                implementation("org.apache.xmlgraphics:batik-codec:1.17")
+            }
+        }
+        val jvmTest by getting {
+            dependencies {
+                implementation(kotlin("test-junit"))
+            }
+        }
+        val jsMain by getting {
+            dependencies {
+                implementation("org.jetbrains.kotlinx:kotlinx-html-js:0.11.0")
+                implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core-js:1.9.0")
+                implementation("org.jetbrains.kotlinx:kotlinx-datetime:0.6.1")
+            }
+        }
+        val jsTest by getting {
+            dependencies {
+                implementation(kotlin("test-js"))
+            }
+        }
+    }
+}

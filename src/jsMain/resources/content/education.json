@@ -1,0 +1,82 @@
+{
+  "degrees": [
+    {
+      "degree": "Ph.D.",
+      "field": "Biology",
+      "institution": "South Dakota State University",
+      "department": "Department of Biology and Microbiology",
+      "location": "Brookings, South Dakota",
+      "year": 2018,
+      "thesis": "Microbial communities and their impact on bioenergy crops in dynamic environments",
+      "thesisUrl": "https://openprairie.sdstate.edu/etd/2659"
+    },
+    {
+      "degree": "M.S.",
+      "field": "Plant Science",
+      "institution": "South Dakota State University",
+      "department": "Department of Agronomy, Horticulture and Plant Science",
+      "location": "Brookings, South Dakota",
+      "year": 2013,
+      "thesis": "The Analysis of Cytotypic Variation and Construction of a BAC Library of Midwestern Prairie Cordgrass (Spartina pectinata Link) Genotypes",
+      "thesisUrl": "https://openprairie.sdstate.edu/etd/1624"
+    },
+    {
+      "degree": "B.S.",
+      "field": "Microbiology",
+      "institution": "South Dakota State University",
+      "department": "Department of Biology and Microbiology",
+      "location": "Brookings, South Dakota",
+      "year": 2008
+    }
+  ],
+  "experience": [
+    {
+      "position": "Postdoctoral Researcher",
+      "institution": "Cornell University",
+      "location": "Ithaca, New York",
+      "period": "2018-2023",
+      "advisor": "Edward Buckler",
+      "highlights": [
+        "Worked with research institutions across African, Caribbean, Latin, and North American countries to develop cloud computing infrastructure and breeding pipelines leveraging gene activity predictors for sorghum, cowpea, cassava, rice, and maize.",
+        "Created R packages to interface TASSEL and practical haplotype graph software with the R programming language.",
+        "Developed methods to efficiently evaluate 1.8 million gene models across 26 diverse maize assemblies using machine learning models.",
+        "Created methods and pipelines for genome- and transcriptome-wide association studies to evaluate water use efficiency and photosynthetic traits in sorghum.",
+        "Designed a database storing ca. 1 billion genome-wide association study results in maize leveraging graph theory for semantic querying."
+      ]
+    },
+    {
+      "position": "Visiting Scholar",
+      "institution": "South Dakota State University / The Ohio State University",
+      "location": "Brookings, SD / Columbus, OH",
+      "period": "2017-2018",
+      "advisor": "Qin Ma",
+      "highlights": [
+        "Created a web server for cloud-based expression data analysis leveraging the Shiny framework, JavaScript, and bioinformatic libraries.",
+        "Developed an R package (vidger) to generate rapid, information-rich visualizations for differential gene expression results."
+      ]
+    },
+    {
+      "position": "Graduate Research Assistant",
+      "institution": "South Dakota State University",
+      "location": "Brookings, South Dakota",
+      "period": "2013-2018",
+      "advisor": "Heike Bücking and Jose Gonzalez-Hernandez",
+      "highlights": [
+        "Examined microbial community structures across next generation lignocellulosic feedstocks using high-throughput amplicon sequencing and metagenomics.",
+        "Conducted RNA-seq analyses to determine arbuscular mycorrhiza effects on gene expression in prairie cordgrass, switchgrass, and Brachypodium distachyon.",
+        "Investigated arbuscular mycorrhizal communities' impact on lignocellulosic feedstock biomass production at greenhouse and field levels."
+      ]
+    },
+    {
+      "position": "Graduate Research Assistant",
+      "institution": "South Dakota State University",
+      "location": "Brookings, South Dakota",
+      "period": "2009-2013",
+      "advisor": "Jose Gonzalez-Hernandez",
+      "highlights": [
+        "Established a germplasm collection of prairie cordgrass from across the Midwest and analyzed cytotypic variation through flow cytometry.",
+        "Created the first bacterial artificial chromosome library and protocols for prairie cordgrass."
+      ]
+    }
+  ]
+}

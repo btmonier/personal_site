@@ -1,0 +1,100 @@
+{
+  "items": [
+    {
+      "title": "National Association of Plant Breeders Conference Workshop",
+      "institution": "Greenville, South Carolina",
+      "period": "2023",
+      "description": "Taught one in-person workshop. This workshop entailed an overview of a new cloud computing service along with two R packages: rTASSEL and rPHG and how these systems can be integrated to perform breeding-related analyses in relation to the Practical Haplotype Graph.",
+      "url": null,
+      "participants": 60
+    },
+    {
+      "title": "Thomas Wyatt Turner Lecture Series",
+      "institution": "Cornell University",
+      "period": "2023",
+      "description": "Taught two in-person classes. These classes covered the R programming language and how we can use this for the biological sciences.",
+      "url": null,
+      "participants": 7
+    },
+    {
+      "title": "Feed the Future ILCI Annual Meeting Workshop",
+      "institution": "Senegal",
+      "period": "2022",
+      "description": "Taught two in-person workshops. These workshops entailed an overview of cloud computing infrastructure developed for the ILCI program along with an intro to the R package, rTASSEL.",
+      "url": null,
+      "participants": 22
+    },
+    {
+      "title": "Feed the Future ILCI JupyterHub Workshop",
+      "institution": "Virtual (Africa, Latin America, Caribbean)",
+      "period": "2022",
+      "description": "Taught three virtual workshops at centers across Africa, Latin America, and the Caribbean Islands. These workshops entailed an overview of cloud computing methods, computational notebooks, and an introductory course for data analyses in R.",
+      "url": null,
+      "participants": 26
+    },
+    {
+      "title": "Computational Biology Guest Lecture",
+      "institution": "Cornell University",
+      "period": "2020",
+      "description": "Guest lectured one virtual class. Gave an overview of topics in machine learning and how the Buckler Lab applies these to current research. This also included running example models to predict transcription factor binding and expression for biologically relevant data.",
+      "url": null,
+      "participants": 25
+    },
+    {
+      "title": "Workshop on Cereal Genomics",
+      "institution": "Cold Spring Harbor Laboratories",
+      "period": "2019",
+      "description": "Taught one in-person workshop. Aided in the lecture and walkthrough of the rTASSEL software and how this can be applied to genome-wide association models.",
+      "url": null,
+      "participants": 24
+    },
+    {
+      "title": "Wheat Coordinated Agriculture Project (CAP) Workshop",
+      "institution": "Cornell University",
+      "period": "2019",
+      "description": "Taught a week-long in-person workshop. Aided in the lecture and walkthrough of the Practical Haplotype Graph Software and R package (rPHG) developed in the Buckler Lab.",
+      "url": null,
+      "participants": 22
+    },
+    {
+      "title": "Graduate Teaching Assistant - Plant Physiology",
+      "institution": "South Dakota State University",
+      "period": "2018",
+      "description": "Taught three lab sections. Created lab materials (quizzes, lectures, slides), oversaw lab group research projects, and graded exams and reports.",
+      "url": null,
+      "participants": 39
+    },
+    {
+      "title": "Graduate Teaching Assistant - General Biology II",
+      "institution": "South Dakota State University",
+      "period": "2016",
+      "description": "Taught three lab sections. Created lab materials (quizzes, lectures, slides), facilitated anatomical dissections, and graded exams and reports.",
+      "url": null,
+      "participants": 75
+    },
+    {
+      "title": "Graduate Teaching Assistant - General Botany II",
+      "institution": "South Dakota State University",
+      "period": "2015",
+      "description": "Taught four lab sections. Created lab materials (quizzes, lectures, slides), ran experiments, facilitated tree and plant tours, and graded exams.",
+      "url": null,
+      "participants": 100
+    },
+    {
+      "title": "Graduate Teaching Assistant - General Biology I",
+      "institution": "South Dakota State University",
+      "period": "2014-2017",
+      "description": "Taught 3 lab sections over four years. Created lab materials (quizzes, lectures, slides), prepared and facilitated lab experiments, and graded exams and reports.",
+      "url": null,
+      "participants": 270
+    },
+    {
+      "title": "Graduate Teaching Assistant - Diseases of Field Crops",
+      "institution": "South Dakota State University",
+      "period": "2011",
+      "description": "Taught 1 lab section. Prepared lab work stations for assignments and examinations. Additionally, graded quizzes and exams.",
+      "url": null,
+      "participants": 20
+    }
+  ]
+}

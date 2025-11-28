@@ -1,0 +1,222 @@
+{
+  "items": [
+    {
+      "title": "Breeder Genomics Hub: Cloudifying reproducible breeding pipelines",
+      "authors": ["Brandon Monier", "Lynn C. Johnson", "Francisco J. Agosto-Perez", "Peter J. Bradbury", "Terry M. Casstevens", "Bethany F. Econopouly", "Zachary R. Miller", "Matthew Wiese", "Edward S. Buckler"],
+      "venue": "Zeaevolution Meeting, Ithaca, New York",
+      "year": 2023,
+      "type": "talk"
+    },
+    {
+      "title": "reelGene: Fishing for good gene models with evolution and machine learning",
+      "authors": ["Aimee J. Schulz", "Sheng-Kai Hsu", "Travis Wrightsman", "Jingjing Zhai", "Zachary R. Miller", "Taylor AuBuchon-Elder", "Elizabeth A. Kellogg", "Arun Seetharam", "Matthew B. Hufford", "Thuy La", "M. Cinta Romay", "Edward S. Buckler", "Brandon Monier"],
+      "venue": "Maize Genetics Meeting, St. Louis, Missouri",
+      "year": 2023,
+      "type": "talk"
+    },
+    {
+      "title": "Breeder Genomics Hub: Cloudifying reproducible breeding pipelines by leveraging genomic tools",
+      "authors": ["Brandon Monier", "Bethany F. Econopouly", "Terry M. Casstevens", "Francisco J. Agosto-Perez", "Peter J. Bradbury", "Kelly R. Robbins", "Edward S. Buckler"],
+      "venue": "National Association of Plant Breeders Conference, Greenville, South Carolina",
+      "year": 2023,
+      "type": "poster"
+    },
+    {
+      "title": "Genome-wide assessment of photoprotective kinetics in sorghum",
+      "authors": ["Richard L. Vath", "Samuel B. Fernandes", "Brandon Monier", "Katarzyna Głowacka", "Taylor L. Pederson", "Carl J. Bernacchi", "John Ferguson", "Johannes Kromdijk"],
+      "venue": "CO2 Assimilation from Genome to Biome Gordon Conference, Lucca (Barga), Italy",
+      "year": 2023,
+      "type": "poster"
+    },
+    {
+      "title": "Breeder Genomics Hub: A hub full of tools for analyzing genomic data",
+      "authors": ["Lynn C. Johnson", "Francisco J. Agosto-Perez", "Peter J. Bradbury", "Terry M. Casstevens", "Bethany F. Econopouly", "Zachary R. Miller", "Brandon Monier", "Jeffrey Morse", "Matthew Wiese", "Edward S. Buckler"],
+      "venue": "Advances in Genome Biology and Technology Meeting, San Antonio, Texas",
+      "year": 2023,
+      "type": "poster"
+    },
+    {
+      "title": "The Practical Haplotype Graph: A Graph-Based Approach for Imputing Genotypes",
+      "authors": ["Ana Berthel", "Peter J. Bradbury", "Terry M. Casstevens", "Bethany F. Econopouly", "Evan Long", "Lynn C. Johnson", "Zachary R. Miller", "Brandon Monier", "M. Cinta Romay", "Baoxing Song", "Matthew Wiese", "Edward S. Buckler"],
+      "venue": "Advances in Genome Biology and Technology Meeting, San Antonio, Texas",
+      "year": 2023,
+      "type": "poster"
+    },
+    {
+      "title": "Characterizing cis-regulatory evolution at scale across hundreds of wild grass species",
+      "authors": ["Charles O. Hale", "Taylor AuBuchon-Elder", "Terry M. Casstevens", "Germano Costa-Neto", "Sheng-Kai Hsu", "Matthew B. Hufford", "Lynn C. Johnson", "Elizabeth A. Kellogg", "Thuy La", "Zachary R. Miller", "Brandon Monier", "M. Cinta Romay", "Aimee J. Schulz", "Arun Seetharam", "Edward S. Buckler"],
+      "venue": "Maize Genetics Meeting, St. Louis, Missouri",
+      "year": 2023,
+      "type": "poster"
+    },
+    {
+      "title": "Cloudifying reproducible breeding pipelines: Integrating TASSEL and the PHG with R and JupyterHub",
+      "authors": ["Brandon Monier", "Bethany F. Econopouly", "Terry M. Casstevens", "Francisco J. Agosto-Perez", "Peter J. Bradbury", "Kelly R. Robbins", "Edward S. Buckler"],
+      "venue": "Maize Genetics Meeting, St. Louis, Missouri",
+      "year": 2023,
+      "type": "poster"
+    },
+    {
+      "title": "reelGene: a pipeline for robust evaluation through evolutionary leverage of gene models",
+      "authors": ["Aimee J. Schulz", "Sheng-Kai Hsu", "Travis Wrightsman", "M. Cinta Romay", "Thuy La", "Zachary R. Miller", "Taylor AuBuchon-Elder", "Elizabeth A. Kellogg", "Matthew B. Hufford", "Arun Seetharam", "Edward S. Buckler", "Brandon Monier"],
+      "venue": "Zeaevolution Meeting, Ithaca, New York",
+      "year": 2022,
+      "type": "talk"
+    },
+    {
+      "title": "101 Evolutions: Evaluating maize gene annotations with genome sequences across the Andropogoneae",
+      "authors": ["Aimee J. Schulz", "Evan Long", "Zachary R. Miller", "Taylor AuBuchon-Elder", "Elizabeth A. Kellogg", "Thuy La", "M. Cinta Romay", "Edward S. Buckler", "Brandon Monier"],
+      "venue": "Crops Conference, Huntsville, Alabama",
+      "year": 2022,
+      "type": "talk"
+    },
+    {
+      "title": "Cloudifying reproducible genetic analyses: Integrating TASSEL and R with JupyterHub",
+      "authors": ["Brandon Monier", "Bethany F. Econopouly", "Terry M. Casstevens", "Francisco J. Agosto-Perez", "Peter J. Bradbury", "Edward S. Buckler"],
+      "venue": "Crops Conference, Huntsville, Alabama",
+      "year": 2022,
+      "type": "poster"
+    },
+    {
+      "title": "Variation in upstream open reading frames contributes to allelic diversity in protein abundance",
+      "authors": ["Joseph L. Gage", "Sujina Mali", "Fionn McLoughlin", "Merritt Khaipho-Burch", "Brandon Monier", "Julia Bailey-Serres", "Richard D. Vierstra", "Edward S. Buckler"],
+      "venue": "Maize Genetics Meeting, St. Louis, Missouri",
+      "year": 2022,
+      "type": "poster"
+    },
+    {
+      "title": "101 Evolutions: Evaluating maize gene annotations with genome sequences across the Andropogoneae",
+      "authors": ["Aimee J. Schulz", "Evan Long", "Zachary R. Miller", "Taylor AuBuchon-Elder", "Elizabeth A. Kellogg", "Thuy La", "M. Cinta Romay", "Edward S. Buckler", "Brandon Monier"],
+      "venue": "Maize Genetics Meeting, St. Louis, Missouri",
+      "year": 2022,
+      "type": "poster"
+    },
+    {
+      "title": "The PHG as a Web Service",
+      "authors": ["Peter J. Bradbury", "Zachary R. Miller", "Lynn C. Johnson", "Brandon Monier", "Edward S. Buckler"],
+      "venue": "Zeaevolution Meeting, Ithaca, New York",
+      "year": 2021,
+      "type": "talk"
+    },
+    {
+      "title": "Elucidating the extent of pleiotropy in maize and its functional relevance towards trait prediction",
+      "authors": ["Merritt B. Khaipho-Burch", "Anju Giri", "Guillaume Ramstein", "Brandon Monier", "M. Cinta Romay", "Edward S. Buckler"],
+      "venue": "Maize Genetics Meeting, St. Louis, Missouri",
+      "year": 2021,
+      "type": "poster"
+    },
+    {
+      "title": "The maize PHG - a practical haplotype graph",
+      "authors": ["Peter J. Bradbury", "Terry M. Casstevens", "Sarah Jensen", "Lynn C. Johnson", "Zachary R. Miller", "Brandon Monier", "M. Cinta Romay", "Baoxing Song", "Edward S. Buckler"],
+      "venue": "Maize Genetics Meeting, St. Louis, Missouri",
+      "year": 2021,
+      "type": "poster"
+    },
+    {
+      "title": "rTASSEL: an R interface to TASSEL for association mapping of complex traits",
+      "authors": ["Brandon Monier", "Terry M. Casstevens", "Peter J. Bradbury", "Edward S. Buckler"],
+      "venue": "Maize Genetics Meeting, St. Louis, Missouri",
+      "year": 2021,
+      "type": "poster"
+    },
+    {
+      "title": "The development of computational resources for association studies in maize",
+      "authors": ["Brandon Monier", "Ravi Valluru", "Terry M. Casstevens", "Edward S. Buckler"],
+      "venue": "Zeaevolution Meeting, Ithaca, New York",
+      "year": 2019,
+      "type": "talk"
+    },
+    {
+      "title": "The development of computational resources for association studies in maize and sorghum",
+      "authors": ["Brandon Monier", "Ravi Valluru", "Terry M. Casstevens", "Edward S. Buckler"],
+      "venue": "Maize Genetics Meeting, St. Louis, Missouri",
+      "year": 2019,
+      "type": "poster"
+    },
+    {
+      "title": "Microbial Communities and their impact on bioenergy crops in dynamic environments",
+      "authors": ["Brandon Monier"],
+      "venue": "Life Science Seminar Series, Brookings, South Dakota",
+      "year": 2017,
+      "type": "talk"
+    },
+    {
+      "title": "Impact of arbuscular mycorrhizal communities on the biomass production of prairie cordgrass – a potential bioenergy crop",
+      "authors": ["Brandon Monier", "April DeMell", "Merritt Khaipho-Burch", "Jose Gonzalez-Hernandez", "Heike Bücking"],
+      "venue": "International Conference on Mycorrhiza, Prague, Czech Republic",
+      "year": 2017,
+      "type": "poster"
+    },
+    {
+      "title": "Transcriptome Analysis of a model grass species reveals differential gene expression in arbuscular mycorrhizal symbiosis",
+      "authors": ["Brandon Monier", "Jose Gonzalez-Hernandez", "Heike Bücking"],
+      "venue": "Day of Scholars, Brookings, South Dakota",
+      "year": 2017,
+      "type": "poster"
+    },
+    {
+      "title": "An Ancient Accord Between Plants and Fungi Spells Prosperity for Bioenergy Crops",
+      "authors": ["Brandon Monier", "Jose Gonzalez-Hernandez", "Heike Bücking"],
+      "venue": "American Society of Plant Biologists Midwest Section Conference, Brookings, South Dakota",
+      "year": 2016,
+      "type": "talk"
+    },
+    {
+      "title": "Influence of arbuscular mycorrhizal interactions on biomass and nutrient uptake in Spartina pectinata",
+      "authors": ["April DeMell", "Brandon Monier", "Vincent Peta", "Heike Bücking"],
+      "venue": "SD EPSCor Research Symposium, Pierre, South Dakota",
+      "year": 2016,
+      "type": "poster"
+    },
+    {
+      "title": "Optimizing biomass production in Spartina pectinata through arbuscular mycorrhizal symbiosis",
+      "authors": ["Jerry Cordero-Sepulveda", "Winly Mai", "Brandon Monier", "Vincent Peta", "Heike Bücking"],
+      "venue": "SD EPSCor Research Symposium, Pierre, South Dakota",
+      "year": 2016,
+      "type": "poster"
+    },
+    {
+      "title": "Beneficial plant microbe interactions and their potential application to increase biomass production and environmental sustainability of prairie cordgrass",
+      "authors": ["Heike Bücking", "Jose Gonzalez-Hernandez", "E. Liepold", "Brandon Monier"],
+      "venue": "North Central Regional Sun Grant Center Meeting, Brookings, South Dakota",
+      "year": 2014,
+      "type": "talk"
+    },
+    {
+      "title": "Plant-microbe interactions show benefits for bioenergy crops",
+      "authors": ["Brandon Monier", "Jose Gonzalez-Hernandez", "Heike Bücking"],
+      "venue": "American Society for Microbiology North Central Branch Meeting, Superior, Wisconsin",
+      "year": 2014,
+      "type": "poster"
+    },
+    {
+      "title": "Plant-microbe interactions affect biomass production of Spartina pectinata, a potential bioenergy crop",
+      "authors": ["Merritt Khaipho-Burch", "Brandon Monier", "Jose Gonzalez-Hernandez", "Heike Bücking"],
+      "venue": "Sanford Undergraduate Research Symposium, Sioux Falls, South Dakota",
+      "year": 2014,
+      "type": "poster"
+    },
+    {
+      "title": "Plant-microbe interactions affect biomass production of Spartina pectinata, a potential bioenergy crop",
+      "authors": ["Merritt Khaipho-Burch", "Brandon Monier", "Jose Gonzalez-Hernandez", "Heike Bücking"],
+      "venue": "SD EPSCor Research Symposium, Pierre, South Dakota",
+      "year": 2014,
+      "type": "poster"
+    },
+    {
+      "title": "Mycorrhizae and biofuel crop yield: variation in prairie cordgrass genotypes",
+      "authors": ["Lin Anh Cat", "Sarah Bushlack", "Brandon Monier", "Heike Bücking"],
+      "venue": "SD EPSCor Research Symposium, Pierre, South Dakota",
+      "year": 2013,
+      "type": "poster"
+    },
+    {
+      "title": "Construction of a prairie cordgrass (S. pectinata) BAC library",
+      "authors": ["Brandon Monier", "Jose Gonzalez-Hernandez", "Arvid Boe", "Vance Owens", "Jeff Stein"],
+      "venue": "Plant and Animal Genome Conference",
+      "year": 2011,
+      "type": "poster"
+    }
+  ]
+}
+

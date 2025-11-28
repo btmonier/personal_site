@@ -1,0 +1,29 @@
+{
+  "items": [
+    {
+      "label": "GitHub",
+      "url": "https://github.com/btmonier",
+      "description": "Source code repositories and open-source projects",
+      "icon": "fa-brands fa-github"
+    },
+    {
+      "label": "Google Scholar",
+      "url": "https://scholar.google.com/citations?user=buYGhlYAAAAJ&hl=en",
+      "description": "Academic publications and citations",
+      "icon": "fa-brands fa-google-scholar"
+    },
+    {
+      "label": "ORCID",
+      "url": "https://orcid.org/0000-0001-6797-1221",
+      "description": "Researcher identification and publication record",
+      "icon": "fa-brands fa-orcid"
+    },
+    {
+      "label": "LinkedIn",
+      "url": "https://linkedin.com/in/btmonier",
+      "description": "Professional network profile",
+      "icon": "fa-brands fa-linkedin"
+    }
+  ]
+}
+

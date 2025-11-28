@@ -1,0 +1,136 @@
+{
+  "items": [
+    {
+      "name": "MLImpute",
+      "description": "Pangenome imputation using machine learning.",
+      "languages": ["JavaScript", "Rust", "Python", "Kotlin"],
+      "repoUrl": "https://github.com/maize-genetics/MLImpute",
+      "tags": ["Imputation", "Machine Learning"]
+    },
+    {
+      "name": "TASSEL",
+      "description": "Tools to evaluate trait associations, evolutionary patterns, and linkage disequilibrium.",
+      "languages": ["Java", "Kotlin"],
+      "repoUrl": "https://github.com/maize-genetics/tassel",
+      "tags": ["GWAS", "Population Genetics", "Linkage-disequilibrium"]
+    },
+    {
+      "name": "PHGv2",
+      "description": "Tools for representing pangenomes and imputation.",
+      "languages": ["Kotlin"],
+      "repoUrl": "https://github.com/maize-genetics/phg_v2",
+      "docsUrl": "https://phg.maizegenetics.net/",
+      "tags": ["Pangenomes", "Imputation", "Graphs"]
+    },
+    {
+      "name": "rTASSEL",
+      "description": "An R-based front-end for TASSEL interactivity. Provides seamless integration of TASSEL's powerful genomic analysis tools within R workflows.",
+      "languages": ["R", "Java"],
+      "repoUrl": "https://github.com/maize-genetics/rTASSEL",
+      "docsUrl": "https://rtassel.maizegenetics.net/",
+      "tags": ["TASSEL", "GWAS", "R Package", "Genomics"]
+    },
+    {
+      "name": "rPHG",
+      "description": "An R-based front-end for the Practical Haplotype Graph. Enables pangenome analysis and imputation workflows in R.",
+      "languages": ["R", "Kotlin"],
+      "repoUrl": "https://github.com/maize-genetics/rPHG",
+      "docsUrl": "https://rphg.maizegenetics.net/",
+      "tags": ["PHG", "Pangenome", "R Package", "Imputation"]
+    },
+    {
+      "name": "rPHG2",
+      "description": "An R-based front-end for the Practical Haplotype Graph v2. Enables pangenome analysis and imputation workflows in R.",
+      "languages": ["R", "Kotlin"],
+      "repoUrl": "https://github.com/maize-genetics/rPHG2",
+      "docsUrl": "https://rphg2.maizegenetics.net/",
+      "tags": ["PHGv2", "Pangenome", "R Package", "Imputation"]
+    },
+    {
+      "name": "MGJars",
+      "description": "An R package for distributing TASSEL and PHG API libraries",
+      "languages": ["R", "Java"],
+      "repoUrl": "https://github.com/maize-genetics/MGJars",
+      "tags": ["TASSEL", "PHG", "R Package", "Genomics"]
+    },
+    {
+      "name": "ask4r",
+      "description": "R methods for querying askDB (Andropogoneae Systems Knowledge Database)",
+      "languages": ["R"],
+      "repoUrl": "https://bitbucket.org/bucklerlab/ask4r/src/master/",
+      "tags": ["Database", "R Package", "Andropogoneae"]
+    },
+    {
+      "name": "BRIC",
+      "description": "A novel biclustering method for detecting gene regulatory signals (GRSs) within single cells",
+      "languages": ["R"],
+      "repoUrl": "https://github.com/OSU-BMBL/BRIC",
+      "tags": ["Single Cell", "Biclustering", "Gene Regulation"]
+    },
+    {
+      "name": "quiltr",
+      "description": "Procedural polygon pattern generation for creating generative art in R",
+      "languages": ["R"],
+      "repoUrl": "https://github.com/btmonier/quiltr",
+      "tags": ["Generative Art", "Visualization", "R Package"]
+    },
+    {
+      "name": "croix",
+      "description": "Color palette generator for R projects",
+      "languages": ["R"],
+      "repoUrl": "https://github.com/btmonier/croix",
+      "tags": ["Visualization", "Colors", "R Package"]
+    },
+    {
+      "name": "vidger",
+      "description": "Create rapid visualizations of RNA-Seq data in R. Provides integrative interpretation of differential gene expression results.",
+      "languages": ["R"],
+      "repoUrl": "https://github.com/btmonier/vidger",
+      "docsUrl": "https://bioconductor.org/packages/release/bioc/html/vidger.html",
+      "tags": ["RNA-Seq", "Visualization", "Bioconductor", "DGE"]
+    },
+    {
+      "name": "ggDESeq",
+      "description": "A visualization suite for DESeq related data frames that implements ggplot2 aesthetics",
+      "languages": ["R"],
+      "repoUrl": "https://github.com/btmonier/ggDESeq",
+      "tags": ["DESeq2", "Visualization", "ggplot2", "RNA-Seq"]
+    },
+    {
+      "name": "BioKotlin",
+      "description": "A high performance bioinformatics library written in Kotlin. Provides modern, type-safe APIs for genomic data processing.",
+      "languages": ["Kotlin"],
+      "repoUrl": "https://github.com/maize-genetics/BioKotlin",
+      "docsUrl": "https://www.biokotlin.org/",
+      "tags": ["Bioinformatics", "Kotlin", "Genomics", "High Performance"]
+    },
+    {
+      "name": "BioKotlin Playground",
+      "description": "A compiler server for showcasing BioKotlin API in HTML code blocks. Interactive documentation tool.",
+      "languages": ["Kotlin"],
+      "repoUrl": "https://bitbucket.org/bucklerlab/biokotlin_compiler_server/src/master/",
+      "tags": ["BioKotlin", "Documentation", "Interactive"]
+    },
+    {
+      "name": "askDB",
+      "description": "Andropogoneae Systems Knowledge Database - a comprehensive database for grass genomics research",
+      "languages": ["JavaScript", "HTML", "CSS"],
+      "repoUrl": "https://bitbucket.org/bucklerlab/askdb/src/master/",
+      "tags": ["Database", "Andropogoneae", "Genomics"]
+    },
+    {
+      "name": "IRIS-EDA",
+      "description": "Integrated RNA-Seq Data Analysis and Interpretation System. Provides interactive visualization and analysis tools for RNA-Seq experiments.",
+      "languages": ["R", "Shiny"],
+      "docsUrl": "https://bmbls.bmi.osumc.edu/IRIS/",
+      "tags": ["RNA-Seq", "Visualization", "Shiny", "DGE"]
+    },
+    {
+      "name": "PerlSeq",
+      "description": "Perl routines for common bioinformatics tasks with FASTA data",
+      "languages": ["Perl"],
+      "repoUrl": "https://github.com/btmonier/perlseq",
+      "tags": ["Bioinformatics", "FASTA", "Perl"]
+    }
+  ]
+}

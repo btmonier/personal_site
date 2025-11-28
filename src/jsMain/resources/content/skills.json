@@ -1,0 +1,120 @@
+{
+  "categories": [
+    {
+      "name": "Programming Languages",
+      "icon": "code",
+      "items": ["Bash", "C++", "Java", "JavaScript", "Kotlin", "Lua", "Perl", "Python", "R"]
+    },
+    {
+      "name": "Web Development & Database Systems",
+      "icon": "web",
+      "items": ["HTML/CSS", "Node.js", "Shiny", "React.js", "Cypher/Neo4j", "SQL/MySQL"]
+    },
+    {
+      "name": "Machine Learning",
+      "icon": "psychology",
+      "items": ["Keras", "Scikit-learn", "TensorFlow"]
+    },
+    {
+      "name": "Reporting",
+      "icon": "description",
+      "items": ["Google Colab", "Jupyter", "LaTeX", "Markdown"]
+    },
+    {
+      "name": "Cloud Computing Services",
+      "icon": "cloud",
+      "items": ["Cornell High Performance Computing Services", "Digital Ocean", "Heroku"]
+    },
+    {
+      "name": "Quantitative Genetics & Bioinformatics",
+      "icon": "biotech",
+      "items": [
+        "Association mapping (mixed linear models, general linear models, matrix eQTL)",
+        "Genomic prediction (SNPs, RNA expression)",
+        "Imputation (Beagle, Practical Haplotype Graph)",
+        "RNA and DNA sequence analysis and alignment",
+        "Genome assembly and annotation",
+        "Metagenomics"
+      ]
+    },
+    {
+      "name": "Molecular Experience",
+      "icon": "science",
+      "items": [
+        "DNA and RNA extraction",
+        "PCR techniques (standard and quantitative real time)",
+        "Gel electrophoresis (standard, PAGE, pulsed-field, denaturing gradient)",
+        "Primer design",
+        "Plasmid construction",
+        "Bacterial artificial chromosome library construction",
+        "Flow cytometry",
+        "Microscopy"
+      ]
+    }
+  ],
+  "mentoring": {
+    "summary": "Mentored 8 graduate and undergraduate students",
+    "certifications": [
+      "Postdoc Leadership Program, Office of Postdoctoral Studies, Cornell University"
+    ],
+    "mentees": [
+      {
+        "name": "April DeMell",
+        "level": "Undergraduate",
+        "duration": "3 months, full-time",
+        "institution": "South Dakota State University",
+        "year": "2016"
+      },
+      {
+        "name": "Clarissa Mercado",
+        "level": "Undergraduate",
+        "duration": "3 months, full-time",
+        "institution": "South Dakota State University",
+        "year": "2016"
+      },
+      {
+        "name": "Jerry Cordero Sepulvéda",
+        "level": "Undergraduate",
+        "duration": "3 months, full-time",
+        "institution": "South Dakota State University",
+        "year": "2015"
+      },
+      {
+        "name": "Winly Mai",
+        "level": "Undergraduate",
+        "duration": "3 months, full-time",
+        "institution": "South Dakota State University",
+        "year": "2015"
+      },
+      {
+        "name": "Merritt Burch",
+        "level": "Undergraduate",
+        "duration": "3 months, full-time",
+        "institution": "South Dakota State University",
+        "year": "2014"
+      },
+      {
+        "name": "Sabrina Bushlack",
+        "level": "Undergraduate",
+        "duration": "3 months, full-time",
+        "institution": "South Dakota State University",
+        "year": "2013"
+      },
+      {
+        "name": "Linh Anh Cat",
+        "level": "Undergraduate",
+        "duration": "3 months, full-time",
+        "institution": "South Dakota State University",
+        "year": "2013"
+      },
+      {
+        "name": "Vincent Peta",
+        "level": "Graduate",
+        "duration": "~9 months, full-time",
+        "institution": "South Dakota State University",
+        "year": "2013-2014"
+      }
+    ]
+  }
+}
+

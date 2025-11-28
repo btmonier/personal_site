@@ -1,0 +1,145 @@
+{
+  "items": [
+    {
+      "title": "reelGene: a pipeline for robust evaluation through evolutionary leverage of gene models",
+      "authors": ["Aimee J. Schulz", "Jingjing Zhai", "Taylor AuBuchon-Elder", "Mohamed El-Whalid", "Matthew B. Hufford", "Lynn C. Johnson", "Elizabeth A. Kellogg", "Thuy La", "Evan Long", "Zachary R. Miller", "M. Cinta Romay", "Arun Seetharam", "Michelle C. Stitzer", "Travis Wrightsmand", "Edward S. Buckler", "Brandon Monier", "Sheng Kai Hsu"],
+      "journal": "In Preparation",
+      "year": 2024
+    },
+    {
+      "title": "Revealing the genetic architecture of Nonphotochemical quenching in sorghum through high-throughput screening of dynamic photoprotection",
+      "authors": ["Richard L. Vath", "Samuel B. Fernandes", "Brandon Monier", "Katarzyna Głowacka", "Taylor L. Pederson", "Carl J. Bernacchi", "John Ferguson", "Johannes Kromdijk"],
+      "journal": "In Preparation",
+      "year": 2024
+    },
+    {
+      "title": "Elucidating the patterns of pleiotropy and its biological relevance in maize",
+      "authors": ["Merritt Khaipho-Burch", "Taylor Ferebee", "Anju Giri", "Guillaume Ramstein", "Brandon Monier", "Emily Yi", "M. Cinta Romay", "Edward S. Buckler"],
+      "journal": "PLOS Genetics",
+      "year": 2023,
+      "volume": "19",
+      "pages": "1-28",
+      "doi": "10.1371/journal.pgen.1010664",
+      "url": "https://doi.org/10.1371/journal.pgen.1010664"
+    },
+    {
+      "title": "The role of transposon inverted repeats in balancing drought tolerance and yield-related traits in maize",
+      "authors": ["Xiaopeng Sun", "Yanli Xiang", "Nannan Dou", "Hui Zhang", "Surui Pei", "Arcadio Valdes Franco", "Mitra Menon", "Brandon Monier", "Taylor Ferebee", "Tao Liu", "Sanyang Liu", "Yuchi Gao", "Jubin Wang", "William Terzaghi", "Jianbing Yan", "Sarah Hearne", "Lin Li", "Feng Li", "Mingqiu Dai"],
+      "journal": "Nature Biotechnology",
+      "year": 2023,
+      "volume": "41",
+      "pages": "120-127",
+      "doi": "10.1038/s41587-022-01470-4",
+      "url": "https://doi.org/10.1038/s41587-022-01470-4"
+    },
+    {
+      "title": "rTASSEL: An R interface to TASSEL for analyzing genomic diversity",
+      "authors": ["Brandon Monier", "Terry M. Casstevens", "Peter J. Bradbury", "Edward S. Buckler"],
+      "journal": "Journal of Open Source Software",
+      "year": 2022,
+      "volume": "7",
+      "pages": "4530",
+      "doi": "10.21105/joss.04530",
+      "url": "https://doi.org/10.21105/joss.04530"
+    },
+    {
+      "title": "The Practical Haplotype Graph, a platform for storing and using pangenomes for imputation",
+      "authors": ["Peter J. Bradbury", "Terry M. Casstevens", "Sarah E. Jensen", "Lynn C. Johnson", "Zachary R. Miller", "Brandon Monier", "Maria Cinta Romay", "Baoxing Song", "Edward S. Buckler"],
+      "journal": "Bioinformatics",
+      "year": 2022,
+      "volume": "38",
+      "pages": "3698-3702",
+      "doi": "10.1093/bioinformatics/btac410",
+      "url": "https://doi.org/10.1093/bioinformatics/btac410"
+    },
+    {
+      "title": "Variation in upstream open reading frames contributes to allelic diversity in protein abundance",
+      "authors": ["Joseph L. Gage", "Sujina Mali", "Fionn McLoughlin", "Merritt Khaipho-Burch", "Brandon Monier", "Julia Bailey-Serres", "Richard D. Vierstra", "Edward S. Buckler"],
+      "journal": "Proceedings of the National Academy of Sciences",
+      "year": 2022,
+      "doi": "10.1073/pnas.2112516119",
+      "url": "https://doi.org/10.1073/pnas.2112516119"
+    },
+    {
+      "title": "Machine learning-enabled phenotyping for GWAS and TWAS of WUE traits in 869 field-grown sorghum accessions",
+      "authors": ["John N. Ferguson", "Samuel B. Fernandes", "Brandon Monier", "Nathan D. Miller", "Dylan Allen", "Anna Dmitrieva", "Peter Schmuker", "Roberto Lozano", "Ravi Valluru", "Edward S. Buckler", "Michael A. Gore", "Patrick J. Brown", "Edgar P. Spalding", "Andrew D. B. Leakey"],
+      "journal": "Plant Physiology",
+      "year": 2021,
+      "volume": "187",
+      "pages": "1481-1500",
+      "doi": "10.1093/plphys/kiab346",
+      "url": "https://doi.org/10.1093/plphys/kiab346"
+    },
+    {
+      "title": "Ten years of the maize nested association mapping population: impact, limitations, and future directions",
+      "authors": ["Joseph L. Gage", "Brandon Monier", "Anju Giri", "Edward S. Buckler"],
+      "journal": "The Plant Cell",
+      "year": 2020,
+      "volume": "32",
+      "pages": "2083-2093",
+      "doi": "10.1105/tpc.19.00951",
+      "url": "https://doi.org/10.1105/tpc.19.00951"
+    },
+    {
+      "title": "IRIS-EDA: An integrated RNA-Seq interpretation system for gene expression data analysis",
+      "authors": ["Brandon Monier", "Adam McDermaid", "Cankun Wang", "Jing Zhao", "Allison Miller", "Anne Fennell", "Qin Ma"],
+      "journal": "PLOS Computational Biology",
+      "year": 2019,
+      "volume": "15",
+      "pages": "e1006792",
+      "doi": "10.1371/journal.pcbi.1006792",
+      "url": "https://doi.org/10.1371/journal.pcbi.1006792"
+    },
+    {
+      "title": "Interpretation of differential gene expression results of RNA-seq data: review and integration",
+      "authors": ["Adam McDermaid", "Brandon Monier", "Jing Zhao", "Bingqiang Liu", "Qin Ma"],
+      "journal": "Briefings in Bioinformatics",
+      "year": 2019,
+      "volume": "20",
+      "pages": "2044-2054",
+      "doi": "10.1093/bib/bby067",
+      "url": "https://doi.org/10.1093/bib/bby067"
+    },
+    {
+      "title": "Microbial communities and their impact on bioenergy crops in dynamic environments",
+      "authors": ["Brandon Monier"],
+      "journal": "PhD Thesis, South Dakota State University",
+      "year": 2018,
+      "url": "https://openprairie.sdstate.edu/etd/2659"
+    },
+    {
+      "title": "IRIS-DGE: An integrated RNA-seq data analysis and interpretation system for differential gene expression",
+      "authors": ["Brandon Monier", "Adam McDermaid", "Jing Zhao", "Anne Fennell", "Qin Ma"],
+      "journal": "bioRxiv",
+      "year": 2018,
+      "pages": "283341",
+      "doi": "10.1101/283341",
+      "url": "https://doi.org/10.1101/283341"
+    },
+    {
+      "title": "ViDGER: An R package for integrative interpretation of differential gene expression results of RNA-seq data",
+      "authors": ["Adam McDermaid", "Brandon Monier", "Jing Zhao", "Qin Ma"],
+      "journal": "bioRxiv",
+      "year": 2018,
+      "pages": "268896",
+      "doi": "10.1101/268896",
+      "url": "https://doi.org/10.1101/268896"
+    },
+    {
+      "title": "Inter- and intraspecific fungal diversity in the arbuscular mycorrhizal symbiosis",
+      "authors": ["Brandon Monier", "Vincent Peta", "Jerry Mensah", "Heike Bücking"],
+      "journal": "Mycorrhiza - Function, Diversity, State of the Art",
+      "year": 2017,
+      "pages": "253-274",
+      "doi": "10.1007/978-3-319-53064-2_12",
+      "url": "https://doi.org/10.1007/978-3-319-53064-2_12"
+    },
+    {
+      "title": "The Analysis of Cytotypic Variation and Construction of a BAC Library of Midwestern Prairie Cordgrass (Spartina pectinata Link) Genotypes",
+      "authors": ["Brandon Monier"],
+      "journal": "Master's Thesis, South Dakota State University",
+      "year": 2013,
+      "url": "https://openprairie.sdstate.edu/etd/1624"
+    }
+  ]
+}
