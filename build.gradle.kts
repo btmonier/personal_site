@@ -1,6 +1,6 @@
 plugins {
-    kotlin("multiplatform") version "2.0.21"
-    kotlin("plugin.serialization") version "2.0.21"
+    kotlin("multiplatform") version "2.2.0"
+    kotlin("plugin.serialization") version "2.2.0"
 }
 
 group = "org.btmonier"
@@ -14,7 +14,6 @@ kotlin {
     jvmToolchain(21)
     
     jvm {
-        withJava()
         mainRun {
             mainClass.set("org.btmonier.cli.MainKt")
         }
