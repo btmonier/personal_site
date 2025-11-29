@@ -94,13 +94,33 @@ jobs:
           chmod +x gradlew
           ./gradlew clean jvmRun --args="-o btmonier_cv.pdf" --no-build-cache
 
+      - name: Verify CV PDF generated
+        run: |
+          echo "=== Checking generated PDF ==="
+          ls -la btmonier_cv.pdf
+          echo ""
+          echo "=== PDF file info ==="
+          file btmonier_cv.pdf
+          echo ""
+          echo "=== Verify publications in source (first entry) ==="
+          head -20 src/jsMain/resources/content/publications.json
+
       - name: Get formatted timestamp
         id: timestamp
         run: |
           FORMATTED_DATE=$(date -u +'%Y-%m-%d @ %H:%M UTC')
           echo "date=$FORMATTED_DATE" >> $GITHUB_OUTPUT
 
-      - name: Create/Update Latest CV Release
+      - name: Delete existing release assets
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          # Delete the old release to force fresh upload
+          gh release delete cv-latest --yes 2>/dev/null || echo "No existing release to delete"
+          # Also delete the tag to allow recreation
+          git push origin :refs/tags/cv-latest 2>/dev/null || echo "No existing tag to delete"
+
+      - name: Create Latest CV Release
         uses: softprops/action-gh-release@v2
         with:
           tag_name: cv-latest
@@ -114,4 +134,5 @@ jobs:
           files: btmonier_cv.pdf
           draft: false
           prerelease: false
+          make_latest: true
 
