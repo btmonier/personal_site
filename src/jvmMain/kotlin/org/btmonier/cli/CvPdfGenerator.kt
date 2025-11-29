@@ -25,6 +25,7 @@ class CvPdfGenerator(private val dataDir: String) {
     private val grayBg = Color(230, 230, 230) // Light gray background
     private val accentLineColor = Color(128, 0, 32) // Maroon accent lines
     private val tableBorderColor = Color(200, 200, 200)
+    private val swIconColor = Color(80, 80, 80) // Software icons
 
     // Load Roboto Serif from resources
     private val robotoSerifBase: BaseFont = try {
@@ -510,7 +511,7 @@ class CvPdfGenerator(private val dataDir: String) {
             for (lang in sw.languages) {
                 val iconPath = languageIcons[lang]
                 if (iconPath != null) {
-                    val icon = loadSvgIcon(iconPath, iconSize)
+                    val icon = loadSvgIcon(iconPath, iconSize, swIconColor)
                     if (icon != null) {
                         val chunk = Chunk(icon, 0f, 0f)
                         iconsParagraph.add(chunk)
@@ -552,7 +553,7 @@ class CvPdfGenerator(private val dataDir: String) {
         usedLanguages.forEachIndexed { index, lang ->
             val iconPath = languageIcons[lang]
             if (iconPath != null) {
-                val icon = loadSvgIcon(iconPath, 9f)
+                val icon = loadSvgIcon(iconPath, 10f, swIconColor)
                 if (icon != null) {
                     legendParagraph.add(Chunk(icon, 0f, -1f))
                     legendParagraph.add(Chunk(" $lang", smallFont))
