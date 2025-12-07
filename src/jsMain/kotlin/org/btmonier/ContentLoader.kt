@@ -70,5 +70,10 @@ object ContentLoader {
         val text = fetchText("content/skills.json")
         return json.decodeFromString<SkillsData>(text)
     }
+
+    suspend fun loadNotFoundImages(): NotFoundImages {
+        val text = fetchText("content/404-images.json")
+        return json.decodeFromString<NotFoundImages>(text)
+    }
 }
 

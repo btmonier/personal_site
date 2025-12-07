@@ -27,6 +27,7 @@ private var teachingData: List<Teaching>? = null
 private var linksData: List<Link>? = null
 private var scholarStats: ScholarStats? = null
 private var skillsData: SkillsData? = null
+private var notFoundImages: NotFoundImages? = null
 
 fun main() {
     window.onload = {
@@ -50,20 +51,30 @@ private fun initializeApp() {
             linksData = ContentLoader.loadLinks()
             scholarStats = ContentLoader.loadScholarStats()
             skillsData = ContentLoader.loadSkills()
+            notFoundImages = ContentLoader.loadNotFoundImages()
             
-            // Get initial page from hash (ignore year anchors)
-            val hash = window.location.hash.removePrefix("#")
-            currentPage = if (hash.isNotEmpty() && !hash.contains("-year-")) hash else "about"
+            // Get initial page from pathname
+            val path = window.location.pathname.removePrefix("/").removeSuffix("/")
+            val requestedPage = when {
+                path.isEmpty() -> "about" // Root path "/" shows about page
+                path.contains("-year-") -> "about" // Year anchors are handled via hash
+                else -> path
+            }
+            currentPage = if (isValidPage(requestedPage)) requestedPage else "404"
             
             // Render the application
             renderApp()
             
-            // Setup navigation listeners
-            window.onhashchange = { 
-                val newHash = window.location.hash.removePrefix("#")
-                // Only handle page navigation, not year anchors
-                if (newHash.isNotEmpty() && !newHash.contains("-year-") && newHash != currentPage) {
-                    currentPage = newHash
+            // Setup navigation listeners for browser back/forward
+            window.onpopstate = { 
+                val path = window.location.pathname.removePrefix("/").removeSuffix("/")
+                val newPage = when {
+                    path.isEmpty() -> "about" // Root path "/" shows about page
+                    path.contains("-year-") -> currentPage // Year anchors are handled via hash, don't change page
+                    else -> path
+                }
+                if (newPage != currentPage) {
+                    currentPage = if (isValidPage(newPage)) newPage else "404"
                     renderPage()
                     updateActiveNavItems()
                 }
@@ -178,7 +189,7 @@ private fun createNavBar(): HTMLElement {
         // Navigation Items
         div("nav-bar-items") {
             navItems.forEach { (id, label, icon) ->
-                a(href = "#$id", classes = "nav-bar-item") {
+                a(href = "/$id", classes = "nav-bar-item") {
                     attributes["data-page"] = id
                     if (id == currentPage) classes = classes + " active"
                     span("material-icons") { +icon }
@@ -198,7 +209,7 @@ private fun createNavBar(): HTMLElement {
                 }
                 div("nav-bar-dropdown-menu") {
                     dropdownItems.forEach { (id, label, icon) ->
-                        a(href = "#$id", classes = "nav-bar-dropdown-item") {
+                        a(href = "/$id", classes = "nav-bar-dropdown-item") {
                             attributes["data-page"] = id
                             if (id == currentPage) classes = classes + " active"
                             span("material-icons") { +icon }
@@ -227,7 +238,7 @@ private fun createBottomNav(): HTMLElement {
         id = "bottom-nav"
         div("bottom-nav-items") {
             allNavItems.forEach { (id, label, icon) ->
-                a(href = "#$id", classes = "bottom-nav-item") {
+                a(href = "/$id", classes = "bottom-nav-item") {
                     attributes["data-page"] = id
                     if (id == currentPage) classes = classes + " active"
                     div("bottom-nav-item-icon") {
@@ -255,7 +266,8 @@ private fun renderPage() {
         "teaching" -> createTeachingPage(teachingData!!)
         "experience" -> createExperiencePage(educationData!!, skillsData!!)
         "links" -> createLinksPage(linksData!!)
-        else -> createAboutPage(siteConfig!!, aboutData!!)
+        "404" -> createNotFoundPage(notFoundImages ?: NotFoundImages(emptyList()))
+        else -> createNotFoundPage(notFoundImages ?: NotFoundImages(emptyList()))
     }
     
     container.appendChild(pageContent)
@@ -536,8 +548,9 @@ private fun updateActiveSectionFromScroll() {
 private fun navigateToPage(page: String) {
     if (page == currentPage) return
     
-    currentPage = page
-    window.history.pushState(null, "", "#$page")
+    val targetPage = if (isValidPage(page)) page else "404"
+    currentPage = targetPage
+    window.history.pushState(null, "", "/$targetPage")
     renderPage()
     updateActiveNavItems()
     
@@ -574,8 +587,14 @@ private fun getPageTitle(page: String): String {
         "teaching" -> "Teaching"
         "experience" -> "Experience"
         "links" -> "Links"
-        else -> "About"
+        "404" -> "Page Not Found"
+        else -> "Page Not Found"
     }
+}
+
+private fun isValidPage(page: String): Boolean {
+    val validPages = setOf("about", "publications", "presentations", "software", "teaching", "experience", "links")
+    return validPages.contains(page)
 }
 
 // Software filtering state

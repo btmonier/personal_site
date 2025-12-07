@@ -544,6 +544,26 @@ a:hover {
     padding: 0 12px;
 }
 
+/* 404 Page Button - Lighter green with dark text, darker green on hover */
+.not-found-button {
+    background-color: var(--md-sys-color-primary-container);
+    color: var(--md-sys-color-on-primary-container);
+}
+
+.not-found-button:hover {
+    background-color: var(--md-sys-color-primary);
+    color: var(--md-sys-color-on-primary);
+    box-shadow: var(--md-sys-elevation-1);
+}
+
+.not-found-button:hover::before {
+    opacity: 0;
+}
+
+.not-found-button .material-icons {
+    color: inherit;
+}
+
 /* ===== Divider ===== */
 .md-divider {
     height: 1px;
