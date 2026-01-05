@@ -269,7 +269,7 @@ private fun createFooter(): HTMLElement {
         id = "site-footer"
         div("footer-content") {
             div("footer-left") {
-                div("footer-copyright") { +"Copyright © Brandon Monier 2025" }
+                div("footer-copyright") { +"Copyright © Brandon Monier 2025-2026" }
                 div("footer-made-with") {
                     +"Made with "
                     a(href = "https://github.com/btmonier/btm_site_core", target = "_blank", classes = "footer-text-link") {
