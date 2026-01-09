@@ -121,6 +121,7 @@ class CvPdfGenerator(private val dataDir: String) {
         val publications = loadJson<Publications>("publications.json")
         val presentations = loadJson<Presentations>("presentations.json")
         val software = loadJson<SoftwareList>("software.json")
+        val teaching = loadJson<TeachingList>("teaching.json")
         val skills = loadJson<SkillsData>("skills.json")
         val scholarStats = loadJson<ScholarStats>("scholar.json")
 
@@ -161,6 +162,9 @@ class CvPdfGenerator(private val dataDir: String) {
         
         addBookmarkedSection(writer, root, "Software")
         addSoftware(document, software.items)
+        
+        addBookmarkedSection(writer, root, "Teaching")
+        addTeaching(document, teaching.items)
         
         addBookmarkedSection(writer, root, "Publications")
         addPublications(document, publications.items, scholarStats)
@@ -572,6 +576,66 @@ class CvPdfGenerator(private val dataDir: String) {
         
         document.add(legendParagraph)
         document.add(Paragraph("\n"))
+    }
+
+    private fun extractStartYear(period: String): Int {
+        // Handles formats like "2023" or "2014-2017"
+        return period.split("-").firstOrNull()?.trim()?.toIntOrNull() ?: 0
+    }
+
+    private fun addTeaching(document: Document, teaching: List<Teaching>) {
+        addSectionHeader(document, "Teaching")
+
+        // Group by start year (descending), matching site behavior
+        val groupedByYear = teaching.groupBy { extractStartYear(it.period) }
+            .toSortedMap(compareByDescending { it })
+
+        // Link style for optional URLs
+        val linkFont = Font(bodyBoldFont).apply {
+            color = Color(0, 0, 180) // blue
+            style = Font.UNDERLINE
+        }
+
+        for ((year, items) in groupedByYear) {
+            if (year != 0) {
+                val yearHeader = Paragraph(year.toString(), subsectionFont)
+                document.add(yearHeader)
+                document.add(Paragraph("\n"))
+            }
+
+            for (course in items) {
+                // Title (optionally clickable) + period
+                val titleLine = Paragraph()
+                val titleChunk = if (course.url != null) {
+                    Chunk(course.title, linkFont).apply { setAnchor(course.url) }
+                } else {
+                    Chunk(course.title, bodyBoldFont)
+                }
+                titleLine.add(titleChunk)
+                titleLine.add(Chunk("  |  ${course.period}", bodyFont))
+                document.add(titleLine)
+
+                // Institution + optional participants
+                val metaLine = Paragraph()
+                metaLine.indentationLeft = 15f
+                metaLine.add(Chunk(course.institution, bodyItalicFont))
+                course.participants?.let { count ->
+                    metaLine.add(Chunk("  |  ", bodyFont))
+                    metaLine.add(Chunk("$count participants", bodyFont))
+                }
+                document.add(metaLine)
+
+                // Optional description
+                course.description?.let { desc ->
+                    val descLine = Paragraph(desc, bodyFont)
+                    descLine.indentationLeft = 15f
+                    descLine.spacingBefore = 2f
+                    document.add(descLine)
+                }
+
+                document.add(Paragraph("\n"))
+            }
+        }
     }
 
     private fun addPublications(document: Document, publications: List<Publication>, scholarStats: ScholarStats) {
