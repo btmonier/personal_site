@@ -1,6 +1,13 @@
 {
   "items": [
     {
+      "name": "clir",
+      "description": "Command-line interface builder in pure R",
+      "languages": ["R"],
+      "repoUrl": "https://github.com/btmonier/clir",
+      "tags": ["CLI", "S7"]
+    },
+    {
       "name": "MLImpute",
       "description": "Pangenome imputation using machine learning.",
       "languages": ["JavaScript", "Rust", "Python", "Kotlin"],
