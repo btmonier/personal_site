@@ -1,6 +1,14 @@
 {
   "items": [
     {
+      "title": "Feed the Future ILCI rTASSEL Workshop",
+      "institution": "Lilongwe Univeristy of Agrictultural and Natural Resources (LUANAR), Malawi",
+      "period": "2024",
+      "description": "Taught two in-person workshops. These workshops entailed an overview of rTASSEL, an R-interface to the genetics and diversity software, TASSEL and bioinformatics concepts",
+      "url": null,
+      "participants": 25
+    },
+    {
       "title": "National Association of Plant Breeders Conference Workshop",
       "institution": "Greenville, South Carolina",
       "period": "2023",
