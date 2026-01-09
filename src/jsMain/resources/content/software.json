@@ -2,7 +2,7 @@
   "items": [
     {
       "name": "clir",
-      "description": "Command-line interface builder in pure R",
+      "description": "Command-line interface builder in pure R and the S7 class system.",
       "languages": ["R"],
       "repoUrl": "https://github.com/btmonier/clir",
       "tags": ["CLI", "S7"]
@@ -20,6 +20,13 @@
       "languages": ["Java", "Kotlin"],
       "repoUrl": "https://github.com/maize-genetics/tassel",
       "tags": ["GWAS", "Population Genetics", "Linkage-disequilibrium"]
+    },
+    {
+      "name": "reelGene",
+      "description": "Machine learning and evolutionary conservation pipeline to identify misannotated or nonfunctional gene models.",
+      "languages": ["Python", "R", "Kotlin", "Perl"],
+      "repoUrl": "https://bitbucket.org/bucklerlab/p_reelgene",
+      "tags": ["Gene Annotation", "Machine Learning", "Comparative Genomics"]
     },
     {
       "name": "PHGv2",
